@@ -1,5 +1,5 @@
 import React from 'react';
-import TodoApp from './TodoApp';
+import TodoApp from './components/TodoApp';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 const queryClient = new QueryClient();
